@@ -1,0 +1,12 @@
+.button-panel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-row {
+    display: contents;
+}
