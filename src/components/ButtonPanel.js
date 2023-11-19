@@ -20,7 +20,7 @@ function ButtonPanel({ onButtonClick }) {
         <Button label="7" onClick={handleClick} />
         <Button label="8" onClick={handleClick} />
         <Button label="9" onClick={handleClick} />
-        <Button label="*" onClick={handleClick} className="operator" />
+        <Button label="x" onClick={handleClick} className="operator" />
       </div>
       <div className="button-row">
         <Button label="4" onClick={handleClick} />
